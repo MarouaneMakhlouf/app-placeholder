@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #2f2f2f;
+    display: flex;
+}
+#sideLeft{
+    width: 30%;
+    height: 100%;
+}
+#sideLeft ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    overflow: hidden;
+}
+#sideLeft ul li{
+    list-style: none;
+    font-size: 20px;
+    width: 95%;
+    padding: 8px;
+    color: white;
+    background-color: #222;
+    margin: 4px 0;
+    border-radius: 20px;
+    text-align: center;
+    border: solid #fff 2px;
+}
+#sideRight{
+    width: 70%;
+    height: 100%;
+}
+#sideRight ul{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#sideRight ul li{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: solid aqua .5px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#sideRight ul li h2{
+    font-size: 18px;
+    text-wrap: wrap;
+    color: aqua;
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#sideRight ul li p{
+    font-size: 15px;
+    text-wrap: wrap;
+    color: #fff;
+    letter-spacing: 1px;
+}
